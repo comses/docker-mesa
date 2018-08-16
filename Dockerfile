@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.10.1
+FROM phusion/baseimage:0.11
 # Dockerfile for mesa development
 LABEL maintainer="Allen Lee <allen.lee@asu.edu>"
 
