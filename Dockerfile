@@ -13,6 +13,7 @@ RUN apt-get update && apt-get upgrade -y -o Dpkg::Options::="--force-confold" \
     git \
     python3-pip \
     python3-setuptools \
+    && pip3 install wheel \
     && pip3 install mesa \
     && git clone https://github.com/projectmesa/mesa \
     && rm -rf /var/lib/apt/lists/* \
