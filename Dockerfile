@@ -17,6 +17,6 @@ RUN apt-get update && apt-get upgrade -y -o Dpkg::Options::="--force-confold" \
     && git clone https://github.com/projectmesa/mesa \
     && rm -rf /var/lib/apt/lists/* \
     && apt purge -y git \
-    && apt autoremove
+    && apt autoremove -y
 
 WORKDIR /opt/mesa/examples
