@@ -5,7 +5,7 @@ LABEL maintainer="Allen Lee <allen.lee@asu.edu>"
 ENV PYTHONUNBUFFERED=1 \
     LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
-    MESA_VERSION=0.8.4
+    MESA_VERSION=0.8.5
 
 WORKDIR /opt
 
